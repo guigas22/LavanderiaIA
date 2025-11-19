@@ -87,7 +87,7 @@ def novo_cliente():
     email = str(data["email"])
     return Cliente(codigo_cliente, nome_cliente, email)
 
-#Função que limpa o terminal e não ficar um amontoado de linha
+#Função que limpa o terminal
 def limpar_sistema():
     if os.name == 'nt':
         os.system('cls')
